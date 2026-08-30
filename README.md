@@ -3,7 +3,7 @@
 ## 2ECE-A
 This repository contains the Python program and readme file for Programming Assignment 1 - Introduction to Python Programming.
 
-# A. Word Rotation Problembasic s
+# A. Word Rotation Problem
 The Python Program below shows how a character of a string is interchanged in position while keeping all other remaining characters in to their respective orders.
 ## Python Program and Explanation
 ```python
