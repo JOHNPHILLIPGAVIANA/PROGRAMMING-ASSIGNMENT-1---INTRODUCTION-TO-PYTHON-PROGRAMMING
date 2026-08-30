@@ -53,6 +53,7 @@ print("Processed username: ", username) #Prints the result
 
 # C. Bookend Swap Problem
 The Python Program below unpacks a sequence and returns a new list in which the first and last elements have exchanged positions.
+## Python Program and Explanation
 ```python
 def swap_bookends(items):
     first, *middle, last = items #Unpacking through extended sequence unpacking
