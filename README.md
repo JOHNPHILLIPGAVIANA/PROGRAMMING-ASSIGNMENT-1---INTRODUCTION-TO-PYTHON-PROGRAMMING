@@ -18,4 +18,5 @@ user_txt = input("Please enter a word: ") #User input
 result = rotate_word(user_txt) #Call the function 
 print("Rotate Word: ", result) #Output
 ```
-### The `rotate_word` Function
+### 1. The `rotate_word` Function
+**Purpose:** Defines a reusable modular unit that accepts a single argument `(txt)`, which represents the word provided for processing.
