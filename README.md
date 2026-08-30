@@ -75,7 +75,7 @@ print("Result: ", result) #Prints the result
 **Purpose:** The line separates the incoming sequence into three components. The variable `first` receives the initial item, `last` captures the final item, and the starred target `*middle` collects all remaining elements between them into a list.
 ### 3. Reconstruction and Return (`return [last, *middle, first]`)
 **Purpose:** The statement builds and returns a new list featuring swapped endpoints. Placing `last` at index 0 and `first` at the end exchanges the bookends, while `*middle` unpacks the middle elements to preserve their original sequence.
-### 4. Input Parsing and Execution (`input`, `split`, `print`)
+### 4. Input Gathering and Output Display (`input`, `split`, `print`)
 **Purpose:** The `input()` prompt captures the raw input string, `split()` converts space-separated words into a list of items, and `swap_bookends()` processes the list before `print()` displays the final output in the terminal.
 
 
