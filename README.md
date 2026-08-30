@@ -69,7 +69,7 @@ result = swap_bookends(items_input) #Executes the function
 print("Result: ", result) #Prints the result
 ```
 
-### 1. `The swap_bookends()` Function
+### 1. The `swap_bookends()` Function
 **Purpose:** Defines a modular function named  `swap_bookends ` that accepts a sequence of elements as  `items `. Packaging this operation into a function allows list bookend swapping to be executed consistently across different inputs.
 ### 2. Extended Sequence Unpacking (`first`, `*middle`, `last = items`)
 **Purpose:** The line separates the incoming sequence into three components. The variable `first` receives the initial item, `last` captures the final item, and the starred target `*middle` collects all remaining elements between them into a list.
