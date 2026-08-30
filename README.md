@@ -4,7 +4,8 @@
 This repository contains the Python program and readme file for Programming Assignment 1 - Introduction to Python Programming.
 
 # A. Word Rotation Problem
-'''python
+
+```python
 def rotate_word(txt):
     #Rotates a non-empty string by moving the first character to the end while the order of other characters remain.
 
@@ -15,4 +16,4 @@ def rotate_word(txt):
 user_txt = input("Please enter a word: ") #User input
 result = rotate_word(user_txt) #Call the function 
 print("Rotate Word: ", result) #Output
-'''
+```
