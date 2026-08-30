@@ -24,3 +24,6 @@ print("Rotate Word: ", result) #Output
 **Purpose:** The clause conditional check evaluates whether the provided string is empty. If an empty string is passed, the function immediately returns it without performing further operations, ensuring stability and preventing errors during slicing.
 ### 3. String Slicing and Rearrangement `(return txt[1:] + txt[0])`
 **Purpose:** This line performs the primary character rotation. The expression `txt[1:]` extracts a substring containing every character from the second position to the end, while `txt[0]` isolates the initial character. The + operator combines these two parts, appending the original first letter to the end of the remaining string.
+### 4. Input Gathering and Output Display `(input, rotate_word, print)`
+**Purpose:** The final block manages the application workflow. The `input()` function retrieves text entered by the user and assigns it to `user_txt`. This variable is then passed to `rotate_word()`, and the returned result is displayed in the terminal using the `print()` function.
+
