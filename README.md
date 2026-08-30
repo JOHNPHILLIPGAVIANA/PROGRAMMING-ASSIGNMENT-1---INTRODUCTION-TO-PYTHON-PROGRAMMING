@@ -45,8 +45,8 @@ print("Processed username: ", username) #Prints the result
 ### 1. The `make_username(first_name, last_name)` Function
 **Purpose:** This statement defines a modular function named `make_username` that accepts two parameters: `first_name` and `last_name`. Setting up the logic within a function ensures that name transformations can be reused across different inputs consistently.
 ### 2. String Normalization (`.lower().replace(" ", "")`)
-
-
+**Purpose:** The lines process both name inputs to ensure standard formatting. Calling `.lower()` converts all uppercase letters to lowercase which a standard for most username generation, while `.replace(" ", "")` strips out any spaces within the text, preventing formatting inconsistencies in the generated username.
+### 3. Username Formatting and Assembly (`return f"{clean_first}.{clean_last}"`)
 
 
 
