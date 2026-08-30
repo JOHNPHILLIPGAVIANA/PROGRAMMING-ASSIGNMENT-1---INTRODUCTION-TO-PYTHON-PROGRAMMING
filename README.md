@@ -44,7 +44,7 @@ print("Processed username: ", username) #Prints the result
 
 ### 1. The `make_username(first_name, last_name)` Function
 **Purpose:** This statement defines a modular function named `make_username` that accepts two parameters: `first_name` and `last_name`. Setting up the logic within a function ensures that name transformations can be reused across different inputs consistently.
-### 2. String Normalization `(.lower().replace(" ", ""))`
+### 2. String Normalization (`.lower().replace(" ", "")`)
 
 
 
