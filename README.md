@@ -18,4 +18,4 @@ user_txt = input("Please enter a word: ") #User input
 result = rotate_word(user_txt) #Call the function 
 print("Rotate Word: ", result) #Output
 ```
-## The `rotate_word` Function
+### The `rotate_word` Function
