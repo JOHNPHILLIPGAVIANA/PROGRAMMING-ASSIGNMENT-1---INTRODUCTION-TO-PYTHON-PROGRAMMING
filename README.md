@@ -5,6 +5,7 @@ This repository contains the Python program and readme file for Programming Assi
 
 # A. Word Rotation Problem
 
+## Python Program and Explanation
 ```python
 def rotate_word(txt):
     #Rotates a non-empty string by moving the first character to the end while the order of other characters remain.
